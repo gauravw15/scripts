@@ -1,0 +1,13 @@
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;
+sudo apt install ./google-chrome-stable_current_amd64.deb -y;
+sudo apt update;
+sudo apt install git -y;
+sudo apt update;
+sudo snap install code --classic -y && ./vscode-extension-install.sh;
+sudo apt update;
+sudo snap install vlc -y;
+sudo apt update;
+sudo snap install slack -y;
+sudo apt update;
+sudo snap install zoom-client -y;
+sudo apt update;
