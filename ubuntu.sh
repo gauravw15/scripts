@@ -7,19 +7,21 @@ sudo apt update;
 sudo apt install -y tmux;
 sudo apt update;
 sudo apt-get install -y build-essential procps curl file git;
+# stimulate enter keypress
 echo -ne '\n' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
 # $USER is currently logged in user
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> "/home/"$USER"/.profile";
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)";
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -;
 sudo apt-get install -y nodejs;
+sudo apt update;
 sudo apt install -y zsh;
 sudo apt update;
 wget -qO ee rt.cx/ee4 && sudo bash ee;
 sudo apt install -y git;
 git config --global credential.credentialStore secretservice;
 sudo apt update;
-sudo snap install -y code --classic && ./vscode-extension-install -y.sh;
+sudo snap install -y code --classic && chmod u+x vscode-extension-install.sh  ./vscode-extension-install -y.sh;
 sudo apt update;
 sudo snap install -y vlc;
 sudo apt update;
