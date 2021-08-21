@@ -30,6 +30,8 @@ sudo snap install code --classic;
 sudo apt update;
 echo "VLC";
 sudo snap install vlc;
+echo "POEdit";
+sudo snap install poedit
 sudo apt update;
 echo "Slack";
 sudo snap install slack --classic;
