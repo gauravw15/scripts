@@ -1,6 +1,7 @@
 echo "Google Chrome";
 echo -ne '\n' | wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb;
 sudo apt install -y ./google-chrome-stable_current_amd64.deb;
+rm google-chrome-stable_current_amd64.deb;
 sudo apt update;
 echo "VIM";
 sudo apt install -y vim;
@@ -22,9 +23,8 @@ echo "NODE";
 sudo apt-get install -y nodejs;
 sudo apt update;
 wget -qO ee rt.cx/ee4 && sudo bash ee;
-"Echo Get Git Credential Manager";
 sudo chmod +x php_coding_standards.sh;
-sudo ./php_coding_standards.sh;
+./php_coding_standards.sh;
 sudo apt update;
 sudo snap install code --classic;
 sudo apt update;
