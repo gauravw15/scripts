@@ -10,4 +10,4 @@ sudo apt remove -y thunderbird;
 sudo apt remove -y firefox;
 sudo apt remove -y gnome-todo;
 sudo apt remove -y transmission-gtk;
-sudo apt autoremove;
+sudo apt -y autoremove;
