@@ -5,6 +5,7 @@ sudo apt remove -y gnome-calendar;
 sudo apt remove -y remmina;
 sudo apt remove -y gnome-calculator;
 sudo apt remove -y rhythmbox;
+sudo apt remove -y cheese;
 sudo apt remove -y gnome-sudoku;
 sudo apt remove -y thunderbird;
 sudo apt remove -y firefox;
