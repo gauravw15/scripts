@@ -8,5 +8,6 @@ choco install whatsapp -y;
 choco install git -y;
 choco install git-credential-manager-for-windows -y;
 choco install php -y;
+choco install gh -y;
 choco install postman -y;
 choco install 7zip -y;
